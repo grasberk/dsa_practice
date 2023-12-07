@@ -11,7 +11,12 @@
 # input: head=[-3,-2,-1,0,1,2,3]
 # output=[3,2,1,0,-1,-2,-3]
 # A:
-# T:
+# step1 check for if array is empty and if so return the array
+# step2 create 3 pointers for previous value, current value and next value
+# step3 check the next node value and if there is a value, then we assign curr value as next value and current value as previous value
+
+
+
 
 # Definition for singly-linked list.
 # class ListNode:
